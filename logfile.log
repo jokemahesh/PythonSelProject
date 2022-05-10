@@ -43,3 +43,12 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2022-05-10 22:34:17,673 :INFO : test_e2e :Entering country name as ind
 2022-05-10 22:34:24,083 :INFO : test_e2e :Text received from application is ×
 Success! Thank you! Your order will be delivered in next few weeks :-).
+2022-05-10 23:07:31,431 :INFO : test_formSubmission :first name is Rahul
+2022-05-10 23:08:21,642 :INFO : test_e2e :getting all the card titles
+2022-05-10 23:08:21,706 :INFO : test_e2e :iphone X
+2022-05-10 23:08:21,746 :INFO : test_e2e :Samsung Note 8
+2022-05-10 23:08:21,770 :INFO : test_e2e :Nokia Edge
+2022-05-10 23:08:21,802 :INFO : test_e2e :Blackberry
+2022-05-10 23:08:22,266 :INFO : test_e2e :Entering country name as ind
+2022-05-10 23:08:28,411 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).

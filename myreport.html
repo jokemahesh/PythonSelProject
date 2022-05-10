@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>myreport.html</h1>
-    <p>Report generated on 23-Mar-2022 at 15:06:15 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 10-May-2022 at 23:08:28 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.10.2</td></tr></table>
     <h2>Summary</h2>
-    <p>0 tests ran in 4.14 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">1 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 78.79 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -271,12 +271,28 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="error results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Error</td>
-          <td class="col-name">tests/test_HomePage.py::collect</td>
-          <td class="col-duration"></td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_HomePage.py::TestHomePage::test_formSubmission[getData0]</td>
+          <td class="col-duration">23.02</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">..\..\..\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py:126: in import_module<br/>    return _bootstrap._gcd_import(name[level:], package, level)<br/>&lt;frozen importlib._bootstrap&gt;:1050: in _gcd_import<br/>    ???<br/>&lt;frozen importlib._bootstrap&gt;:1027: in _find_and_load<br/>    ???<br/>&lt;frozen importlib._bootstrap&gt;:1006: in _find_and_load_unlocked<br/>    ???<br/>&lt;frozen importlib._bootstrap&gt;:688: in _load_unlocked<br/>    ???<br/>..\..\..\AppData\Local\Programs\Python\Python310\lib\site-packages\_pytest\assertion\rewrite.py:171: in exec_module<br/>    exec(co, module.__dict__)<br/>C:\Users\scit-admin\Desktop\selenium\Projects\PythonSelFramework\PythonSelFramework\tests\test_HomePage.py:11: in &lt;module&gt;<br/>    ???<br/>C:\Users\scit-admin\Desktop\selenium\Projects\PythonSelFramework\PythonSelFramework\tests\test_HomePage.py:30: in TestHomePage<br/>    ???<br/>TestData\HomePageData.py:11: in getTestData<br/>    book = openpyxl.load_workbook(&quot;C:/UserData.xlsx&quot;)<br/>..\..\..\AppData\Local\Programs\Python\Python310\lib\site-packages\openpyxl\reader\excel.py:315: in load_workbook<br/>    reader = ExcelReader(filename, read_only, keep_vba,<br/>..\..\..\AppData\Local\Programs\Python\Python310\lib\site-packages\openpyxl\reader\excel.py:124: in __init__<br/>    self.archive = _validate_archive(fn)<br/>..\..\..\AppData\Local\Programs\Python\Python310\lib\site-packages\openpyxl\reader\excel.py:96: in _validate_archive<br/>    archive = ZipFile(filename, &#x27;r&#x27;)<br/>..\..\..\AppData\Local\Programs\Python\Python310\lib\zipfile.py:1240: in __init__<br/>    self.fp = io.open(file, filemode)<br/><span class="error">E   FileNotFoundError: [Errno 2] No such file or directory: &#x27;C:/UserData.xlsx&#x27;</span><br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_formSubmission:test_HomePage.py:16 first name is Rahul<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">tests/test_e2e.py::TestOne::test_e2e</td>
+          <td class="col-duration">51.61</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_e2e:test_e2e.py:11 getting all the card titles
+INFO     test_e2e:test_e2e.py:17 iphone X
+INFO     test_e2e:test_e2e.py:17 Samsung Note 8
+INFO     test_e2e:test_e2e.py:17 Nokia Edge
+INFO     test_e2e:test_e2e.py:17 Blackberry
+INFO     test_e2e:test_e2e.py:24 Entering country name as ind
+INFO     test_e2e:test_e2e.py:33 Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).<br/></div></td></tr></tbody></table></body></html>
